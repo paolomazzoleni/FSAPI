@@ -32,8 +32,8 @@
 		<?php
         	//compongo le variabili per l'url
             $host = "https://api.foursquare.com/v2/venues/search?";
-			$client_id = "HDQPNRCW1LH3FOEOTSV1P3SVO0SMXNQNMOPB3XJTRWCTOMN0";
-			$client_secret = "EVB3WEV5NJCOINS2TSCYMH2LHIEL1YPA5YLF0SVXFH0XSEKU";
+			$client_id = "XXXXX";
+			$client_secret = "YYYYY";
 			$near = $_POST['citta'];
 			$query = $_POST['servizio'];
 			$limit = $_POST['limite'];
@@ -60,4 +60,4 @@
         <br>
         <input type=button onClick="location.href='index.html'" value='Torna alla home!'>
 	</font></body>
-</html>
+</html>
