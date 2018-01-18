@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  	<head>
+   		<title>Cerca luoghi</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        	table, th, td {
+    			border: 0.5px solid #b2b2b2;
+    			border-collapse: collapse;
+                padding: 8px;
+			}
+        </style>
+  	</head>
+	<body background="http://i.imgur.com/wMiAXnr.jpg">
+    	<font face="Calibri" size="5">
+    	<form action="script.php" method="post">
+          <table align="center" bgcolor="#FFFFFF">
+              <tr>
+                  <td bgcolor="#3AA4DE" width="33%" align="center">A quale citt&agrave; (o dintorni) ti riferisci?</td>
+                  <td bgcolor="#3AA4DE" width="33%" align="center">Di cosa hai bisogno?</td>
+                  <td bgcolor="#3AA4DE" width="33%" align="center">Quanti risultati vuoi visualizzare?</td>
+			  </tr>
+              <tr>
+                  <td align="center">
+                      <input type="text" name="citta" id="citta">
+                  </td>
+                  <td align="center">
+                      <input type="text" name="servizio" id="servizio">
+                  </td>
+                  <td align="center">
+                  	<select name="limite">
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                        <option value="25">25</option>
+                        <option value="30">30</option>
+                  	</select>
+                  </td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td align="center"><input type="submit" value="Effettua una ricerca!"></td>
+                  <td></td>
+              </tr>
+          </table>
+        </form>
+        </font>
+    </body>
+</html>
